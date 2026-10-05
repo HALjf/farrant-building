@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#eee9e2"/>
+  <rect x="0" y="0" width="1200" height="620" fill="#b7a58f"/>
+  <g opacity=".25" stroke="#fff" stroke-width="6">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200"/>
+    <path d="M150 0V120M450 0V120M750 0V120M1050 0V120M0 120V240M300 120V240M600 120V240M900 120V240M1200 120V240M150 240V360M450 240V360M750 240V360M1050 240V360"/>
+  </g>
+  <text x="70" y="715" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#222">PROJECT PHOTO PLACEHOLDER 3</text>
+  <text x="70" y="775" font-family="Arial,sans-serif" font-size="26" fill="#555">Replace with a real before / during / after image.</text>
+</svg>
