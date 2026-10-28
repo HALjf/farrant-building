@@ -231,11 +231,12 @@ h1 span { color: var(--brick); }
 .site-footer .legal { margin-top:3px; color:#777; }
 .site-footer a { color:#ddd; text-decoration:none; }
 
-.reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
-.reveal-right { transform: translateX(48px); }
+.js .reveal { opacity: 0; transform: translateY(12px); }
+.js.js-animate .reveal { transition: opacity .55s ease, transform .55s ease; }
+.js .reveal-right { transform: translateX(48px); }
 .about-points .reveal-right:nth-child(2) { transition-delay: .12s; }
 .about-points .reveal-right:nth-child(3) { transition-delay: .24s; }
-.reveal.visible { opacity:1; transform:none; }
+.js .reveal.visible { opacity:1; transform:none; }
 
 @media (max-width: 900px) {
   .shell { width: min(var(--max), calc(100% - 34px)); }
@@ -338,7 +339,9 @@ h1 span { color: var(--brick); }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior:auto; }
-  .reveal { opacity:1; transform:none; transition:none; }
+  .js .reveal,
+  .js .reveal-right,
+  .js .reveal.visible { opacity:1; transform:none; transition:none; }
   .nav-toggle span, .site-nav, .site-nav a { transition: none; }
   .marquee.is-animated .marquee-group { animation: none; }
   .about-portrait img { animation: none; }
