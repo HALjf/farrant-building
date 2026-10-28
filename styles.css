@@ -264,20 +264,18 @@ h1 span { color: var(--brick); }
   .site-nav {
     position: fixed;
     top: 78px;
-    right: 0;
-    bottom: 0;
     left: 0;
+    right: 0;
     z-index: 99;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
     height: auto;
-    padding: 8px 27px 32px;
+    padding: 4px 17px 22px 27px;
     background: var(--paper);
-    border-bottom: 0;
-    box-shadow: none;
-    overflow: auto;
+    border-bottom: 1px solid rgba(34,34,34,.1);
+    overflow: hidden;
     visibility: hidden;
     pointer-events: none;
     clip-path: inset(0 0 100% 0);
