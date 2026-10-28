@@ -22,7 +22,7 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; }
 .shell { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
 
