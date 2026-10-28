@@ -182,9 +182,7 @@ h1 span { color: var(--brick); }
   animation: about-portrait-flick 16s linear infinite;
 }
 .about-portrait-photo {
-  object-position: 44% 40%;
-  transform: scale(1.12);
-  transform-origin: 44% 42%;
+  object-position: center;
 }
 .about-portrait img.about-portrait-painting {
   object-position: 36% 46%;
