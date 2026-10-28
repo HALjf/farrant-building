@@ -161,7 +161,6 @@ h1 span { color: var(--brick); }
 .section-dark { background: var(--ink); color: var(--white); }
 .about-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 100px; align-items: start; }
 .about-copy p:not(.eyebrow) { color: #d0cbc5; }
-.small-note { padding-left: 18px; border-left: 3px solid var(--brick); font-size: .83rem; }
 .about-copy p.george-role { margin: 38px 0 4px; color: var(--white); font-weight: 700; font-size: 1.35rem; }
 .about-copy .george-note { margin: 0 0 22px; }
 .about-aside { display: flex; flex-direction: column; align-items: flex-start; gap: 42px; }
@@ -202,21 +201,16 @@ h1 span { color: var(--brick); }
 .about-points strong { color: #dc766c; }
 .about-points span { color: #d0cbc5; }
 
-.work-heading { max-width: none; display:grid; grid-template-columns: 1fr .8fr; gap: 90px; align-items: end; }
-.work-heading > p { margin: 0; }
+.work-heading { max-width: none; }
 .project-grid { display:grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
 .project-card { background: var(--white); }
 .project-card img { width:100%; aspect-ratio: 4/3; object-fit: cover; }
 .project-copy { padding: 25px; }
 .project-copy h3 { margin-bottom: 10px; font-size: 1.05rem; }
-.project-copy p:last-child { color: var(--muted); font-size: .89rem; margin-bottom: 0; }
+.project-copy p:last-child:not(.project-type) { color: var(--muted); font-size: .89rem; margin-bottom: 0; }
 .project-type { margin-bottom: 9px; color: var(--brick); font-size:.68rem; text-transform:uppercase; letter-spacing:.12em; font-weight:800; }
 
 .reviews-section { background: #ebe5dd; }
-.review-grid { display:grid; grid-template-columns: repeat(2,1fr); gap: 22px; }
-.review-card { margin:0; padding: 35px; background: var(--paper); border-left: 4px solid var(--brick); }
-.review-card p { font-size: 1.05rem; }
-.review-card footer { color: var(--muted); font-size: .76rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
 
 .contact-section { padding: 80px 0 95px; background: var(--brick); color: white; }
 .contact-section .eyebrow { color: #f4cbc7; }
@@ -318,9 +312,7 @@ h1 span { color: var(--brick); }
   .hero-media { width: calc(100% - 18px); margin-left:18px; }
   .experience-card { left:-18px; }
   .marquee-group span { padding: 16px 36px; }
-  .work-heading { grid-template-columns:1fr; gap:15px; }
   .project-grid { grid-template-columns:1fr; }
-  .review-grid { grid-template-columns:1fr; }
   .contact-actions { text-align:left; }
   .footer-inner { grid-template-columns:1fr; }
 }
