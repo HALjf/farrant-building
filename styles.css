@@ -84,9 +84,8 @@ h1 span { color: var(--brick); }
 .text-link { font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 3px; }
 .hero-media { position: relative; }
 .hero-media > img { width: 100%; aspect-ratio: 1.35 / 1; object-fit: cover; }
-.experience-card { position: absolute; left: -28px; bottom: -28px; width: 180px; min-height: 145px; padding: 24px; background: var(--ink); color: white; }
-.experience-card strong { display:block; font-size: 2.6rem; line-height: 1; color: #d66c62; }
-.experience-card span { display:block; margin-top: 10px; font-size:.78rem; line-height:1.35; text-transform:uppercase; letter-spacing:.08em; }
+.experience-card { position: absolute; left: -28px; bottom: -28px; width: 220px; padding: 22px 24px; background: var(--ink); color: white; }
+.experience-card p { margin: 0; color: #d66c62; font-size: 1.35rem; font-weight: 700; line-height: 1.2; letter-spacing: -.02em; }
 
 .intro-strip { background: var(--paper); color: #8a8178; }
 .marquee {
@@ -331,9 +330,7 @@ h1 span { color: var(--brick); }
   .section { padding:64px 0 78px; }
   .about-grid { gap:45px; }
   .about-points div { grid-template-columns:1fr; gap:7px; }
-  .experience-card { position:static; width:100%; min-height:0; display:flex; align-items:center; gap:16px; }
-  .experience-card strong { font-size:2rem; }
-  .experience-card span { margin:0; }
+  .experience-card { position:static; width:100%; }
   .hero-media { width:100%; margin:0; }
 }
 
